@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" align="center">
+
+        <h1>COVID-19 Vaccine Registration Form</h1>
+
+        <table align="center" cellpadding="10" cellspacing="5">
+
+            <tr>
+                <td><label for="fn">First Name</label></td>
+                <td align="left"><input type="text" id="fn" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="ln">Last Name</label></td>
+                <td align="left"><input type="text" id="ln" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="a">Adhar Number</label></td>
+                <td align="left"><input type="number" name="" id="a" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="v">Vaccine Name</label></td>
+                <td align="left"><select name="" id="v">
+                    <option value="" selected="Please Select Vaccine Name" disabled>Please Select Vaccine Name</option>
+                    <option value="">covaxin</option>
+                    <option value="">AstraZeneca</option>
+                    <option value="">Moderna</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td><label for="vn">Vaccination Center Name</label></td>
+                <td align="left"><select name="" id="vn">
+                    <option value="" selected="Please Select Vaccination Center Name" disabled>Please Select Vaccination Center Name</option>
+                    <option value="">Rajkot</option>
+                    <option value="">Surat</option>
+                    <option value="">Ahmedabad</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td><label for="da">Date Dose</label></td>
+                <td align="left" id="da"><input type="date" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="dm">Dose Number</label></td>
+                <td align="left"><input type="text" maxlength="1" size="2" pattern="[0-9]" id="dm" required></td>
+            </tr>
+
+        </table>
+
+        <button>CLICK HERE</button>
+        <button>CANCEL</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" align="center" cellspacing="5" cellpading="10">
+      <h1>Create Account</h1>
+
+      <table align="center">
+        <tr align="left">
+          <td><label for="fn">First Name *</label></td>
+          <td><label for="ln">Last name</label></td>
+        </tr>
+
+        <tr align="left">
+          <td>
+            <input id="fn" type="text" placeholder="enter your first name" />
+          </td>
+          <td>
+            <input id="ln" type="text" placeholder="enter your last name" />
+          </td>
+        </tr>
+
+        <tr height="10px"></tr>
+
+        <tr align="left">
+          <td><label for="em">Email*</label></td>
+        </tr>
+
+        <tr align="left">
+          <td>
+            <input
+              type="email"
+              id="em"
+              placeholder="enter your email"
+              size=""
+            />
+          </td>
+        </tr>
+
+        <tr height="10px"></tr>
+
+        <tr align="left">
+          <td><label for="p">Password*</label></td>
+          <td><label for="cp">Confirm password*</label></td>
+        </tr>
+
+        <tr align="left">
+          <td>
+            <input type="password" id="p" placeholder="enter your password" />
+          </td>
+          <td>
+            <input
+              type="password"
+              id="cp"
+              placeholder="enter your password again"
+            />
+          </td>
+        </tr>
+
+        <tr height="10px"></tr>
+
+        <tr align="left">
+          <td>Gender</td>
+          <td>Hobbies</td>
+        </tr>
+
+        <tr align="left">
+          <td>
+            <input type="radio" id="m" name="gen" /><label for="m">Male</label>
+            <input type="radio" id="f" name="gen" /><label for="f"
+              >Female</label
+            >
+          </td>
+          <td>
+            <input type="checkbox" id="mu" /><label for="mu">Music</label>
+            <input type="checkbox" id="so" /><label for="so">Sports</label>
+            <input type="checkbox" id="tr" /><label for="tr">Travel </label>
+            <input type="checkbox" id="mo" /><label for="mo">Movies</label>
+          </td>
+        </tr>
+
+        <tr height="10px"></tr>
+
+        <tr align="left">
+          <td><label for="sou">Source of income</label></td>
+          <td><label for="in">Income</label></td>
+        </tr>
+
+        <tr align="left">
+          <td>
+            <select name="" id="sou">
+              <option value="" selected="Employed" disabled>Employed</option>
+              <option value="">Manager</option>
+              <option value="">Businessman</option>
+            </select>
+              <td><input type="range" id="in" min="0" max="100000" name="in" oninput="this.nextElementSibling.value = this.value"/>
+              <output>50000</output>
+              </td>            
+          </td>
+        </tr>
+
+        <tr height="10px"></tr>
+
+        <tr align="left">
+          <td><label for="u">Upload Profile Picture</label></td>
+          <td><label for="ag">Age</label></td>
+        </tr>
+
+        <tr align="left">
+          <td><input type="file" id="u" /></td>
+          <td><input type="number" id="ag" /></td>
+        </tr>
+
+        <tr height="10px"></tr>
+
+        <tr align="left">
+          <td><label for="b">Bio</label></td>
+        </tr>
+
+        <tr align="left">
+          <td><textarea name="" id="b" rows="5" cols="50"></textarea></td>
+        </tr>
+      </table>
+
+      <button>Create</button>
+    </form>
+  </body>
+</html>
