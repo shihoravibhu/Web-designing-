@@ -1,0 +1,16 @@
+div {
+  height: 100px;
+  width: 100px;
+  background-color: antiquewhite;
+  transition: all 2s ease-in;
+}
+
+div:hover {
+  background-color: plum;
+  color: black;
+}
+div:active {
+  font-size: xx-large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: coral;
+}

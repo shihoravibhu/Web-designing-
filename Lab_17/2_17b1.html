@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>partb2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .sidebar {
+            width: 250px;
+            height: 100vh;
+            position: fixed;
+            background-color: #212529;
+            color: white;
+            padding-top: 20px;
+        }
+
+        .sidebar a {
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidebar a:hover {
+            background-color: #343a40;
+        }
+
+        .sidebar .search-box {
+            padding: 10px;
+        }
+
+        .sidebar .search-box input {
+            width: 100%;
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+
+                    <div class="sidebar">
+                        <h5 class="text-center">Open Admin</h5>
+                        <div class="search-box">
+                            <input type="text" class="form-control" placeholder="Search...">
+                        </div>
+                        <a href="#"><i class="fas fa-chart-bar bi bi-window-dock"></i> Dashboard</a>
+                        <a href="#"><i class="fas fa-file-alt bi bi-ticket"></i> Pages</a>
+                        <a href="#"><i class="fas fa-user-cog bi bi-info-square"></i> Admin</a>
+                        <a href="#"><i class="fas fa-cogs bi bi-airplane-engines-fill"></i> Helpers</a>
+                        <a href="#"><i class="fas fa-folder bi bi-apple"></i> Media Manager</a>
+                        <a href="#"><i class="fas fa-wrench bi bi-app-indicator"></i> Config</a>
+                        <a href="#"><i class="fas fa-code bi bi-badge-8k"></i> API Tester</a>
+                        <a href="#"><i class="fas fa-paint-brush bi bi-apple"></i> Page Designer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        <h4>Page List</h4>
+        <div class="d-flex justify-content-between mb-3">
+            <div>
+                <button class="btn btn-success btn-sm"><i class="fas fa-plus"></i> New</button>
+                <button class="btn btn-primary btn-sm">2 Items selected</button>
+                <button class="btn btn-info btn-sm"><i class="fas fa-filter"></i> Filter</button>
+                <button class="btn btn-danger btn-sm"><i class="fas fa-exclamation-triangle"></i> Report</button>
+            </div>
+            <div>
+                <button class="btn btn-primary btn-sm"><i class="fas fa-download"></i> Export</button>
+            </div>
+        </div>
+    
+        <table class="table table-striped table-bordered">
+            <thead class="table-light">
+                <tr>
+                    <th><input type="checkbox"></th>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Date</th>
+                    <th>Tags</th>
+                    <th>Star</th>
+                    <th>Created at</th>
+                    <th>Updated at</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>1</td>
+                    <td>Homepage</td>
+                    <td>2022-06-25</td>
+                    <td><span class="badge bg-success">new</span> <span class="badge bg-primary">special</span></td>
+                    <td><i class="fas fa-star text-primary"></i></td>
+                    <td>2022-02-17 00:51:01</td>
+                    <td>2022-06-25 14:30:21</td>
+                    <td>
+                        <button class="btn btn-sm btn-secondary"><i class="fas fa-eye"></i></button>
+                        <button class="btn btn-sm btn-warning"><i class="fas fa-edit"></i></button>
+                        <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+                    </td>
+                </tr>
+                <tr class="table-warning">
+                    <td><input type="checkbox"></td>
+                    <td>2</td>
+                    <td>Blog</td>
+                    <td>2022-06-25</td>
+                    <td><span class="badge bg-success">new</span></td>
+                    <td><i class="fas fa-star text-primary"></i></td>
+                    <td>2022-06-25 14:30:33</td>
+                    <td>2022-06-25 14:30:33</td>
+                    <td>
+                        <button class="btn btn-sm btn-secondary"><i class="fas fa-eye"></i></button>
+                        <button class="btn btn-sm btn-warning"><i class="fas fa-edit"></i></button>
+                        <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>3</td>
+                    <td>About us</td>
+                    <td>2022-06-25</td>
+                    <td></td>
+                    <td><i class="fas fa-star text-primary"></i></td>
+                    <td>2022-06-25 14:36:58</td>
+                    <td>2022-06-25 14:37:40</td>
+                    <td>
+                        <button class="btn btn-sm btn-secondary"><i class="fas fa-eye"></i></button>
+                        <button class="btn btn-sm btn-warning"><i class="fas fa-edit"></i></button>
+                        <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>4</td>
+                    <td>Contact</td>
+                    <td>2022-06-25</td>
+                    <td><span class="badge bg-warning">code</span> <span class="badge bg-primary">special</span></td>
+                    <td><i class="fas fa-star text-primary"></i></td>
+                    <td>2022-06-25 14:37:12</td>
+                    <td>2022-06-25 14:39:16</td>
+                    <td>
+                        <button class="btn btn-sm btn-secondary"><i class="fas fa-eye"></i></button>
+                        <button class="btn btn-sm btn-warning"><i class="fas fa-edit"></i></button>
+                        <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>5</td>
+                    <td>Cases</td>
+                    <td>2022-06-25</td>
+                    <td></td>
+                    <td><i class="fas fa-star text-primary"></i></td>
+                    <td>2022-06-25 14:37:22</td>
+                    <td>2022-06-25 14:37:36</td>
+                    <td>
+                        <button class="btn btn-sm btn-secondary"><i class="fas fa-eye"></i></button>
+                        <button class="btn btn-sm btn-warning"><i class="fas fa-edit"></i></button>
+                        <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+                    </td>
+                </tr>
+                <tr class="table-warning">
+                    <td><input type="checkbox"></td>
+                    <td>6</td>
+                    <td>Clients</td>
+                    <td>2022-06-25</td>
+                    <td><span class="badge bg-primary">special</span></td>
+                    <td><i class="fas fa-star text-primary"></i></td>
+                    <td>2022-06-25 14:37:28</td>
+                    <td>2022-06-25 14:37:28</td>
+                    <td>
+                        <button class="btn btn-sm btn-secondary"><i class="fas fa-eye"></i></button>
+                        <button class="btn btn-sm btn-warning"><i class="fas fa-edit"></i></button>
+                        <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

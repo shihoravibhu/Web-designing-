@@ -1,0 +1,21 @@
+div {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  border: 5px solid black;
+  border-top: 5px solid white;
+  animation: name 1s linear 0s infinite;
+  position: absolute;
+  right: 650px;
+  top: 300px;
+}
+
+@keyframes name {
+  0% {
+    rotate: 0deg;
+  }
+  
+  100% {
+    rotate: 360deg; 
+  }
+}

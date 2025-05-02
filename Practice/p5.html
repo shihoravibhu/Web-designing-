@@ -1,0 +1,97 @@
+To write HTML code for the table based on the uploaded image, here's a structured approach:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Layout</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td, th {
+            border: 1px solid rgb(0, 0, 0);
+            text-align: center;
+            padding: 8px;
+        }
+        .merged {
+            text-align: center;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <!-- Row 1 -->
+        <tr>
+            <td rowspan="3" colspan="4" class="merged">A</td>
+            <td colspan="2" class="merged">D</td>
+            <td colspan="2" class="merged">E</td>
+        </tr>
+        <!-- Row 2 -->
+        <tr>
+            <td colspan="2" class="merged">F</td>
+            <td colspan="2" class="merged">G</td>
+        </tr>
+        <!-- Row 3 -->
+        <tr>
+            <td colspan="2" class="merged">H</td>
+            <td colspan="2" class="merged">I</td>
+        </tr>
+        <!-- Row 4 -->
+        <tr>
+            <td rowspan="2" colspan="4" class="merged">B</td>
+            <td colspan="2" class="merged">J</td>
+            <td colspan="2" class="merged">K</td>
+        </tr>
+        <!-- Row 5 -->
+        <tr>
+            <td rowspan="4" colspan="4" class="merged">L</td>
+        </tr>
+        <!-- Row 6 -->
+        <tr>
+            <td rowspan="3" colspan="4" height="100px" class="merged">C</td>
+        </tr>
+        <!-- Empty filler rows -->
+        <tr></tr>
+        <tr></tr>
+        <!-- Row 9 (Table Header) -->
+        <tr>
+            <td>SL</td>
+            <td>Items</td>
+            <td>Due Dt</td>
+            <td>Qty</td>
+            <td>Rate</td>
+            <td>Per</td>
+            <td>Dis%</td>
+            <td>Amt</td>
+        </tr>
+        <!-- Empty rows for table data -->
+        <tr><td colspan="8"></td></tr>
+        <tr><td colspan="8"></td></tr>
+        <tr><td colspan="8"></td></tr>
+        <tr><td colspan="8"></td></tr>
+        <tr><td colspan="8"></td></tr>
+        <tr><td colspan="8"></td></tr>
+        <!-- Row 16 (Footer) -->
+        <tr>
+            <td colspan="3">AMT IN WORD</td>
+            <td colspan="4"></td>
+            <td>E. & O.E</td>
+        </tr>
+        <!-- Additional rows -->
+        <tr><td colspan="8"></td></tr>
+        <tr>
+            <td colspan="3">COMPANY NAME</td>
+            <td colspan="1"></td>
+            <td colspan="4" rowspan="4"></td>
+        </tr>
+        <tr><td colspan="4"></td></tr>
+        <tr><td colspan="4"></td></tr>
+        <tr><td colspan="4"></td></tr>
+    </table>
+</body>
+</html>
+

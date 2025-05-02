@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    display: flex;
+    /* justify-content: space-between;   */
+    flex-direction: row;  
+    border: 2px solid black;
+    padding: 10px;
+  }
+  
+  .menu1, .menu2, .logo {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #555;
+    padding: 20px;
+  }
+  
+  .main {
+    display: flex;
+    margin: 10px;
+  }
+  
+  .sidebar {
+    width: 80px;
+    border: 2px solid #333;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .content {
+    flex: 1;
+    margin-left: 10px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .image {
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    font-weight: bold;
+  }
+  
+  .text {
+    flex: 1;
+    margin-left: 10px;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  /* Border Colors */
+  .red-border { border: 2px solid red; }
+  .blue-border { border: 2px solid blue; }
+  .green-border { border: 2px solid green; }
+  .orange-border { border: 2px solid orange; }
+  .purple-border { border: 2px solid purple; }
+  .pink-border { border: 2px solid hotpink; }
+  
+  .footer {
+    text-align: center;
+    padding: 15px;
+    border: 2px solid black;
+    font-weight: bold;
+  }
+  

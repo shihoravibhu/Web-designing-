@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Layout Without Flex</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            height: 700px;
+            width: 700px;
+            border: 1px solid black;
+        }
+        .header, .body, .footer {
+            width: 100%;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+        .header {
+            height: 25%;
+        }
+        .hcol1, .hcol2, .hcol3 {
+            display: inline-block;
+            height: 100%;
+            vertical-align: top;
+            border-right: 1px solid black;
+            text-align: center;
+            line-height: 175px; /* adjust based on container height */
+        }
+        .hcol1, .hcol3 {
+            width: 39%;
+        }
+        .hcol2 {
+            width: 20%;
+        }
+        .hcol3 {
+            border-right: none; /* Last column no border */
+        }
+        .body {
+            height: 60%;
+        }
+        .bcol1 {
+            display: inline-block;
+            height: 100%;
+            width: 34%;
+            border-right: 1px solid black;
+            text-align: center;
+            line-height: 420px; /* adjust */
+        }
+        .bcol2 {
+            float: right;
+            height: 100%;
+            width: 66%;
+        }
+        .bc2r1, .bc2r2, .bc2r3 {
+            height: 33.33%;
+            width: 100%;
+            border-bottom: 1px solid black;
+            position: relative;
+        }
+        .bc2r3 {
+            border-bottom: none; /* last row no bottom border */
+        }
+        .img1, .img2, .img3, .text1, .text2, .text3 {
+            display: inline-block;
+            height: 100%;
+            vertical-align: top;
+            text-align: center;
+        }
+        .img1, .img2, .img3 {
+            width: 35%;
+            border-right: 1px solid black;
+        }
+        .text1, .text2, .text3 {
+            width: 65%;
+        }
+        .footer {
+            height: 15%;
+            text-align: center;
+            line-height: 105px; /* adjust based on footer height */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="hcol1">Menu 1</div>
+            <div class="hcol2">LOGO</div>
+            <div class="hcol3">Menu 2</div>
+        </div>
+        <div class="body">
+            <div class="bcol1">SB</div>
+            <div class="bcol2">
+                <div class="bc2r1">
+                    <div class="img1">Image Here</div>
+                    <div class="text1">Text Here</div>
+                </div>
+                <div class="bc2r2">
+                    <div class="text2">Text Here</div>
+                    <div class="img2">Image Here</div>
+                </div>
+                <div class="bc2r3">
+                    <div class="img3">Image Here</div>
+                    <div class="text3">Text Here</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">@ Darshan</div>
+    </div>
+</body>
+</html>

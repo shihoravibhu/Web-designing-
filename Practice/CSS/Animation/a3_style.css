@@ -1,0 +1,24 @@
+p{
+    animation-name: color;
+    animation-duration: 3s;
+    height: 100px;
+    text-align: center;
+    font-size: 37px;
+    font-weight: 600;
+}
+
+@keyframes color {
+    from{
+        background-image: linear-gradient(135deg,lightblue,lightpink,lightyellow );
+    }
+    to{
+        
+        background-image: linear-gradient(135deg,lightgray,honeydew,rgba(0, 0, 0, 0.182) );
+        /* color: aliceblue; */
+    }
+}
+
+a[href$="hey"]{
+    color: honeydew;
+    background-color: black;
+}
