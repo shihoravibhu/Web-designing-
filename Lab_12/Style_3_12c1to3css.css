@@ -1,0 +1,60 @@
+input{
+    scale: 1.3;
+    display: block;
+    margin: 25px;
+    /* margin: auto; */   
+    
+}
+
+input:invalid{
+    background-color: rgb(240, 150, 150);
+    border: 2px solid red;
+}
+
+input:valid{
+    background-color: greenyellow;
+    border: 2px solid green;
+}
+
+input:focus{
+    background-color: antiquewhite;
+    outline: 3px solid lightskyblue;
+    border-radius: 20px;
+}
+
+button{
+    margin: 10px;
+}
+
+button:active{
+    background-color: greenyellow;
+    border: 2px solid green ;
+    color: black;
+    scale: 1.2;
+}
+
+form:invalid .sub{
+    background-color: rgb(236, 72, 72);
+    /* pointer-events: none; */
+    cursor: not-allowed;
+
+
+}
+form:valid .sub{
+    background-color: rgb(122, 239, 122);
+    border: white;
+    color: black;
+    /* cursor: not-allowed; */
+}
+
+button{
+    background-color: lightslategray;
+    color: white;  
+    border: white;
+    scale: 1.3;  
+}
+button[type="reset"]{
+    background-color: greenyellow;
+    border: white;
+    color: black;
+}

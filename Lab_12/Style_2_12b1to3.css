@@ -1,0 +1,38 @@
+.container a:hover{
+    background-color: lightgray;
+    color: blue;
+}
+
+p{
+    display: inline-block;
+    margin-top: 50px;
+}
+
+input{
+    border: 2px solid green;
+}
+
+
+input:focus{
+    background-color: antiquewhite;
+    color: cornflowerblue;    
+}
+
+table{
+    background-color: gray;
+    margin-left: 100px ;
+    margin-top: 70px;
+    color: cornsilk;
+    scale: 1.5;
+    
+}
+td{
+    padding:10px;
+}
+
+td:hover{
+    background-color: rgb(0, 94, 255);
+    color: honeydew;
+    scale: 1.2;
+    border: 2px solid cornsilk;
+}
