@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 90vh;
+            width: 100vw;
+            background-color: cornflowerblue;
+            display: flex;
+            justify-content: space-evenly;            
+            align-items: center;
+            margin-left: 5px;
+        }
+        .container div{
+            border-radius: 50%;
+            background-color: black;
+            height: 50px;
+            width: 50px;
+            animation: wave 0.5s linear infinite alternate;
+        }
+        @keyframes wave {
+
+            0%{
+                transform: translate(0px,-200px);
+            }  
+            
+            100%{
+                
+                transform: translate(0px,200px);
+            }         
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="d1" style="animation-delay: 0s;"></div>
+        <div class="d2" style="animation-delay: 0.2s;"></div>
+        <div class="d3" style="animation-delay: 0.4s;"></div>
+        <div class="d4" style="animation-delay: 0.6s;"></div>
+        <div class="d5" style="animation-delay: 0.8s;"></div>
+        <div class="d6" style="animation-delay: 1s;"></div>
+        <div class="d7" style="animation-delay: 1.2s;"></div>
+        <div class="d8" style="animation-delay: 1.4s;"></div>
+        <div class="d9" style="animation-delay: 1.6s;"></div>
+        <div class="d10" style="animation-delay: 1.8s;"></div>
+        <div class="d11" style="animation-delay: 2s;"></div>
+    </div>
+</body>
+</html>

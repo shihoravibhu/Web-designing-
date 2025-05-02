@@ -1,0 +1,56 @@
+.logo{
+    width: 100px;
+    height: 50px;
+    position: fixed;
+    left: 0px;
+}
+
+.top{
+    position: fixed;
+    right: 0px;
+}
+
+a{
+    
+    text-decoration: none;
+    margin: 0px 10px 10px 10px;
+}
+
+.logo{
+    background-image: url('Screenshot\ 2025-01-30\ 104358.png');
+    background-size: contain;
+    margin-bottom: 5px;
+    
+   
+}
+
+.image{
+    background-image: url('https://cdn1.vectorstock.com/i/1000x1000/91/85/coding-concept-on-black-vector-15269185.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 425px;
+    width: 100%;   
+    position: fixed;
+    top: 62px; 
+}
+
+
+.hello{
+    position: fixed;
+    right: 0px;
+    color: aliceblue;
+}
+
+.box{
+    margin: 20px;
+}
+
+.box1,.box2,.box3,.box4{
+    border: 2px solid darkgoldenrod;    
+    text-align: center;
+    position:relative;
+    display:inline-block;
+    padding: 0px 80px 80px 80px;
+    margin: 0px 50px 50px 50px;
+    top: 500px;
+}

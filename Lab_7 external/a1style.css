@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+  #blue {
+    background-color: aqua;
+    height: 95vh;
+    padding: 1%;
+  }
+
+  #red {
+    background-color: rgba(137, 13, 83, 0.909);
+    color: aliceblue;
+    height: 30px;
+  }
+
+  #contant {
+    background-color: rgb(255, 162, 0);
+    height: 90%;
+    padding: 5px;
+  }
+
+  .en {
+    background-color: black;
+    color: white;
+    margin: 20px;
+    width: 100%;
+  }
+
+  #s {
+    background-color: black;
+    color: white;
+    float: right;
+    height: 90px;
+    width: 40%;
+    margin: 20px;
+  }
+  #ft {
+    background-color: blue;
+    color: white;
+  }
+  .clasrav {
+    float: left;
+    width: 50%;        
+    height: 120px;       
+  }

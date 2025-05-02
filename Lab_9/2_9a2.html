@@ -1,0 +1,45 @@
+<!-- lab 9 A2 to A6  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .contener{
+            height: 470px;
+            width: 470px;
+            border: 1px solid black;
+            margin:40px;
+            background: linear-gradient(lightblue,lightpink);
+        }
+
+        .t1{
+            height: 70px;
+            width: 70px;
+            background: linear-gradient(black,white);            
+            border-radius:50% ;
+            animation: move 2s ease-in-out 2s infinite reverse;            
+
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        }
+        
+        @keyframes move {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(400px, 0); }
+    50% { transform: translate(400px, 400px); }
+    75% { transform: translate(0, 400px); }
+    100% { transform: translate(0, 0); }
+
+}            
+        
+    </style>
+</head>
+<body>
+    <div class="contener">
+        <div class="t1"></div>
+    </div>
+   
+</body>
+</html>

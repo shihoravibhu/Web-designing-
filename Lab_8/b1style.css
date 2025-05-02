@@ -1,0 +1,230 @@
+.back {
+  background-image: url("b1_img/1_img.jpg");
+  height: 90vh;
+  width: 96vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 19px;
+}
+/* .mainbox{
+  height: 40%;
+  background-color: aqua;
+} */
+.navbar {
+  background-image: url("b1_img/2.jpg");
+  height: 50%;
+  width: 90%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 50px 50px 0px 50px;
+}
+
+.content {
+  display: inline-block;
+  margin: 15px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.mid {
+  /* text-align: center; */
+  /* padding: 5px; */
+  position: absolute;
+  right: 455px;
+  display: inline-block;
+}
+
+.searchbar {
+  display: inline-block;
+  position: absolute;
+  right: 25px;
+  margin: 3px;
+}
+
+.search {
+  display: inline-block;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.redsearch{
+  background-color: red;
+  display: inline-block; 
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.button{
+  background-color: red;
+}
+
+.icon {
+  display: inline-block;
+  margin: 3px 3px 3px 3px;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+  margin: 20px 0px 0px 50px;
+  display: inline-block;
+}
+
+.center {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  display: inline-block;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 51px;
+}
+
+p {
+  width: 400px;
+}
+
+.second {
+  background-image: url("b1_img/3.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 42.5%;
+  width: 90%;
+  position: absolute;
+  bottom: 100px;
+  margin: 437px 50px 0px 50px;
+}
+
+.logoes_for_second {
+  height: 30px;
+  width: 30px;
+  margin: 20px 0px 0px 50px;
+  display: inline-block;
+}
+
+.logoes_for_second1,.logoes_for_second2,.logoes_for_second3,.logoes_for_second4,.logoes_for_second5{
+  
+  display: inline-block;
+}
+
+.logoes_for_second1{
+  background-image: url('b1_img/l1.jpeg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  margin: 0px 0px 2px 450px;
+  
+}
+.logoes_for_second2{
+  background-image: url('b1_img/l2.jpeg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 45px;
+  width: 65px;
+  margin: 2px 0px 2px 50px;  
+}
+.logoes_for_second3{
+  background-image: url('b1_img/l3.jpeg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  margin: 0px 0px 2px 50px;  
+}
+.logoes_for_second4{
+  background-image: url('b1_img/l4.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 65px;
+  margin: 2px 0px 2px 50px;  
+}
+.logoes_for_second5{
+  background-image: url('b1_img/l5.jpeg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 65px;
+  margin: 2px 0px 2px 50px;  
+}
+
+.right{
+  display: inline-block;  
+
+}
+.no{
+  font-size: 70px;
+  font-weight: 900;
+  /* display: inline-block; */
+  margin-left: 50px; 
+  position: relative;
+  bottom: 100px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.p{
+  
+  font-size: 20px;
+  margin-left: 50px; 
+  /* display: inline-block;   */
+  position: relative;
+  bottom: 80px;
+  
+  
+}
+.left{
+  display: inline-block;
+  margin-top: -100px;
+}
+.info{
+  /* display: inline-block; */
+  position: absolute;
+  right: 40px;
+  top: 60px;
+  font-weight: 800; 
+  /* margin-top: -300px; */
+
+}
+.box1,.box2{
+  background-color: black;
+  border-radius: 10px;
+  margin: 10px;
+  margin-top: 150px;
+  /* margin-top: 70px;
+  margin-left: 50px; */
+  height: 150px;
+  width: 130px;
+  color: white;
+  /* display: inline-block; */
+  float: left;
+  font-size: 12px;
+  font-weight: 500;
+  padding-bottom: 25px;
+  padding: 20px;
+}
+.b1,.b2,.b3{
+  background-color: red;
+  color: aliceblue;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  position: relative;
+  right: -25px;
+  top: 36%;
+  
+}
+
+.box2,.box3{
+  background-color:lightgray;
+  border-radius: 10px;
+}
+.b2,.b3{ 
+  
+  color: black;
+}

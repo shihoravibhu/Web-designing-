@@ -1,0 +1,56 @@
+#logo {
+    height: 7%;
+    width: 7%;
+    float: left;
+  }
+
+  .top {
+    float: right;
+    color: blue;
+    text-decoration: none;
+    padding: 40px;
+  }
+
+  #sidebar {
+    background-color: red;
+    text-align: center;
+    display: inline-block;
+    height: 260px;
+    width: 200px;
+  }
+
+  .nav {
+    height: 10vh;
+  }
+
+  .red {
+    border: 2px solid rgb(127, 127, 55);
+    margin-bottom: 5px;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  .im {
+    height: 60px;
+  }      
+
+  .pic {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  #ft {
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    height: 30px;
+  }
+  .right {
+    width: 60vw;
+    display: inline-block;
+    position: absolute;        
+  }
+
+  .main{        
+    margin-right:  1px dotted black;
+  }
